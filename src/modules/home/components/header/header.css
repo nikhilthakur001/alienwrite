@@ -1,0 +1,37 @@
+.header-link {
+    text-decoration: none;
+}
+
+.header-image {
+    position: relative;
+    height: 400px;
+    background: url('../../../../assets/images/header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.header-title-wrapper {
+    margin-bottom: 10px;
+}
+
+.header-description {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    width: 60%;
+}

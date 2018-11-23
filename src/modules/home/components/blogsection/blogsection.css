@@ -1,0 +1,19 @@
+.blog-section-title-wrapper {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 0px 0px;
+    margin-left: 7%;
+    box-shadow: 0 -5px inset orangered;
+}
+
+.blog-section-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+
+.post-wrapper {
+    margin: 0 7%;
+    margin-top: 20px;
+}

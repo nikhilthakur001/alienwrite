@@ -1,0 +1,40 @@
+.footer {
+    margin-top: 20px;
+}
+
+.about-me-wrapper {
+    border-top: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.social-link-list-wrapper {
+    padding: 0;
+}
+
+.social-link-list {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.social-link,
+.social-link-title {
+    font-size: 13px;
+    font-family : 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    border-bottom: 1px solid orangered;
+}
+
+.copyright {
+    background: #f1f1f1;
+    font-family : 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+    padding: 15px;
+}

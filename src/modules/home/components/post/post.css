@@ -1,0 +1,52 @@
+.post {
+    display: inline-block;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 400px;
+    vertical-align: top;
+}
+
+.post-image {
+    position: relative;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+}
+
+.post-date-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background: rgba(0,0,0,0.8);
+}
+
+.post-date {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+}
+
+.post-content {
+    padding: 7px 2px 2px;
+}
+
+.post-title-wrapper {
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+
+.post-description {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    line-height: 22px;
+}
