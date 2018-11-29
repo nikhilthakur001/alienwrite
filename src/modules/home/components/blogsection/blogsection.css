@@ -4,13 +4,14 @@
     display: inline-block;
     padding: 10px 0px 0px;
     margin-left: 7%;
-    box-shadow: 0 -5px inset orangered;
+    box-shadow: 0 -7px inset rgba(50, 197, 143, 0.6);
 }
 
 .blog-section-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     color: #000;
+    font-size: 1.3em;
 }
 
 .post-wrapper {

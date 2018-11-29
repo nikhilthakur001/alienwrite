@@ -4,7 +4,10 @@ import Header from './components/header/header';
 import BlogSection from './components/blogsection/blogsection';
 
 import postImage from '../../assets/images/header.jpg';
-import changeImage from '../../assets/images/change.jpg';
+import changeImage from '../../assets/images/change.png';
+import distractImage from '../../assets/images/distract.jpg';
+import comingSoonImage from '../../assets/images/comingsoon.jpg';
+import thinkImage from '../../assets/images/think.jpeg';
 
 import Navbar from '../../includes/navbar/navbar';
 import Footer from '../../includes/footer/footer';
@@ -16,36 +19,34 @@ class Home extends Component {
         this.state = {
             recentPost : [
                 {
-                    postImage,
-                    postDate : '10-11-2018',
-                    postTitle : 'What I learned this year',
-                    postDescription : '2018 has been a major change in my life. I am sure this will help you to figure out few of things you may be facing right now.'
-                },
-                {
-                    postImage,
+                    postId : 3,
+                    postImage: thinkImage,
                     postDate : '31-10-2018',
-                    postTitle : 'Why I took a leap from writing blogs',
-                    postDescription : '2018 has been a major change in my life. You may be facing right now.'
+                    postTitle : 'Are you really doing what you think you are doing?',
+                    postDescription : 'There are moment in life when your actions does not match your thoughts. For example, deciding to use stairs instead of lift to stay fit. But when you are walking your way through the stairs you start to think that lift would have been a better option.'
                 },
                 {
-                    postImage,
+                    postId: 2,
+                    postImage: distractImage,
                     postDate : '6-10-2018',
                     postTitle : 'Distract your distractions',
-                    postDescription : 'I am sure this will help you to figure out few of things you may be facing right now.'
+                    postDescription : 'You can overcome your distractions with this small action of distracting your distractions. It just takes one second to distract from your distractions and get your attention back to where you want it to be.'
                 },
                 {
+                    postId : 1,
                     postImage : changeImage,
                     postDate : '24-09-2018',
                     postTitle : 'Change for good',
-                    postDescription : 'figure out few of things you may be facing right now.'
+                    postDescription : 'It\'s time for you to bring the change you always wanted to. Here are few lines from my personal experience about making a change in life.'
                 }
             ],
             coffeeWithAnAlienPost : [
                 {
-                    postImage,
-                    postDate : '2-10-2018',
-                    postTitle : 'Coffee 1',
-                    postDescription : '2018 has been a major change in my life. I am sure this will help you to figure out few of things you may be facing right now.'
+                    postId : 4,
+                    postImage : comingSoonImage,
+                    postDate : '',
+                    postTitle : 'About',
+                    postDescription : 'Coffee with an alien is me having small conversation with different people on some amazing topics of life (chosen by them). And yes! There is always a coffee during the conversation. It is a mission to learn about life from other people\'s experience.'
                 }
             ]
         }

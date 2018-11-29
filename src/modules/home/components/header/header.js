@@ -7,7 +7,7 @@ class Header extends React.Component {
         super(props);
         this.state = {
             headerTitle : 'What I learned this year!',
-            headerDescription : '2018 has been a major change in my life. Things like the way I see myself, thoughts about my career, things about realtionship etc. Here are few of the highlights which I learned during this year. I am sure this will help you to figure out few of things you may be facing right now.'
+            headerDescription : '2018 has been a major change in my life. Here are few of the highlights which I learned during this year. I hope this help you too.'
         }
     }
 

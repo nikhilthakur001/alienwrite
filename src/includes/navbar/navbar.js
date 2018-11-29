@@ -17,7 +17,7 @@ class Navbar extends React.Component {
                 },
                 {
                     'name' : 'Coffee with an Alien',
-                    'link' : routeBaseUrl+'/coffeewithanalien'
+                    'link' : '#'
                 },
                 {
                     'name' : 'Login',
@@ -50,6 +50,9 @@ class Navbar extends React.Component {
                                 })
                             }
                         </ul>
+                    </div>
+                    <div className='navbar-bitmoji-wrapper'>
+                        <div className='navbar-bitmoji'></div>
                     </div>
                 </nav>
                 <div className='navbar-top-body-margin'></div>

@@ -5,6 +5,8 @@ import Post from '../post/post';
 
 import './blogsection.css';
 
+const routeBaseUrl = 'http://localhost:3000/article/';
+
 class BlogSection extends React.Component {
 
     constructor(props) {
@@ -23,15 +25,30 @@ class BlogSection extends React.Component {
                 </div>
                 <div className='post-wrapper'>
                     {
+
                         this.state.post.map((post, index)=> {
                             return (
-                                <Post
-                                    key={index}
-                                    postDate={post.postDate}
-                                    postImage={post.postImage}
-                                    postTitle={post.postTitle}
-                                    postDescription={post.postDescription}
-                                />
+                                <div className='post-container'>
+                                    {
+                                        post.postId!==4 ?
+                                        <a href={routeBaseUrl+post.postId}>
+                                            <Post
+                                                key={index}
+                                                postDate={post.postDate}
+                                                postImage={post.postImage}
+                                                postTitle={post.postTitle}
+                                                postDescription={post.postDescription}
+                                            />
+                                        </a> :
+                                        <Post
+                                            key={index}
+                                            postDate={post.postDate}
+                                            postImage={post.postImage}
+                                            postTitle={post.postTitle}
+                                            postDescription={post.postDescription}
+                                        />
+                                    }
+                                </div>
                             )
                         })
                     }

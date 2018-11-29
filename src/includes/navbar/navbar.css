@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background: black;
+    background-color: #000;
     color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -39,4 +39,15 @@
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
     list-style-type: none;
+}
+
+.navbar-bitmoji {
+    background: url('../../assets/images/dragon.png');
+    background-size: contain;
+    background-position: center;
+    height: 95px;
+    width: 95px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
